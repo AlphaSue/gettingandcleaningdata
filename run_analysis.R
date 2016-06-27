@@ -67,4 +67,4 @@ tidy2_dataset <- tidy1_dataset %>%
 
 
 # Write tidy2_dataset to file
-write.table(tidy2_dataset, file = "tidy2_dataset.txt")
+write.table(tidy2_dataset, file = "tidy2_dataset.txt", row.name=FALSE)
